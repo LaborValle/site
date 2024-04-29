@@ -1,0 +1,41 @@
+/*
+/// -------------------------------------------------------------------------------------------------------
+/// :: Labor Valle - Developed by Hebert Richard | 12/12/2020 - 16:30.
+/// :: WARNING: This computer program is protected by copyright law and international treaties.
+/// :: Unauthorized duplication or distribution of this program, or any portion of it, may result
+/// :: in severe civil or criminal penalties, and will be prosecuted to the maximum extent possible
+/// :: under the law.
+/// ::
+/// :: v.1.0 - 12/12/2020 - Implementation.
+/// -------------------------------------------------------------------------------------------------------
+*/
+
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url(../fonts/OpenSans.ttf) format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url(../fonts/OpenSans-Light.ttf) format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Semibold';
+    src: url(../fonts/OpenSans-Semibold.ttf) format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url(../fonts/OpenSans-Bold.ttf) format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Extrabold';
+    src: url(../fonts/OpenSans-ExtraBold.ttf) format('truetype');
+    font-style: normal;
+}

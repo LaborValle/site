@@ -1,0 +1,344 @@
+/*
+/// -------------------------------------------------------------------------------------------------------
+/// :: Labor Valle - Developed by Hebert Richard | 12/12/2020 - 16:30.
+/// :: WARNING: This computer program is protected by copyright law and international treaties.
+/// :: Unauthorized duplication or distribution of this program, or any portion of it, may result
+/// :: in severe civil or criminal penalties, and will be prosecuted to the maximum extent possible
+/// :: under the law.
+/// ::
+/// :: v.1.0 - 12/12/2020 - Implementation.
+/// -------------------------------------------------------------------------------------------------------
+*/
+
+@import url(fonts.css);
+
+html { scroll-behavior: smooth; }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("../img/bg-site.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #03424F; }
+::-webkit-scrollbar-thumb { background: #D0E6F7; }
+::-webkit-scrollbar-thumb:hover { background: #C2DFF4; }
+
+/* Header Line */
+.headerLine {
+    background-color: #03424F;
+    height: 5px;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.35);
+}
+
+.nav-item {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+.button-red {
+    color: #DE513C !important;
+}
+
+.button-red:hover {
+    color: #FFFFFF !important;
+}
+
+.bigger {
+    display:block !important;
+}
+
+.smaller {
+    display:none !important;
+}
+
+/* Quem Somos */
+#quem-somos {
+    padding: 5rem;
+    text-align: center;
+    background-image: url("../img/sobre-nos.jpg");
+    height: 1250px;
+}
+
+#quem-somos h1 {
+    font-family: 'Open Sans Bold', sans-serif;
+    color: #DE513C;
+    padding:3rem;
+    font-size: 3rem;
+}
+
+#quem-somos h4 {
+    padding:3rem;
+}
+
+#quem-somos a {
+    margin-top: 3rem;
+}
+
+/* Nossos Produtos */
+#nossos-produtos {
+    padding: 5rem;
+    text-align: center;
+}
+
+#nossos-produtos h1 {
+    font-family: 'Open Sans Bold', sans-serif;
+    color: #DE513C;
+    padding:3rem;
+    font-size: 3rem;
+}
+
+#nossos-produtos h4 {
+    padding:3rem;
+}
+
+.boxCJ {
+    padding: 3rem;
+}
+
+.box {
+    border:solid 1px #DE513C;
+    -webkit-border-top-left-radius: 15px;
+    border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #FFFFFF;
+    padding: 2rem;
+}
+
+.button {
+    bottom: 0 !important;
+    background-color: #DE513C;
+    margin:0 !important;
+    padding: 1rem !important;
+    border-bottom-left-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    color: #FFFFFF;
+}
+
+.button h4 {
+    margin:0 !important;
+    padding:0 !important;
+    font-size: 1.3em;
+}
+
+/* Banner Acessórios */
+#small {
+    display:none;
+}
+
+/* Blog */
+#blog {
+    padding: 5rem;
+    text-align: center;
+}
+
+#blog h1 {
+    font-family: 'Open Sans Bold', sans-serif;
+    color: #DE513C;
+    padding:3rem;
+    font-size: 3rem;
+}
+
+#blog h4 {
+    padding:3rem;
+}
+
+.boxCJ {
+    padding: 3rem;
+}
+
+.box123 {
+    border:solid 1px #DE513C;
+    -webkit-border-top-left-radius: 15px;
+    border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #FFFFFF;
+    padding: 2rem;
+}
+
+.button {
+    bottom: 0 !important;
+    background-color: #DE513C;
+    margin:0 !important;
+    padding: 1rem !important;
+    border-bottom-left-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    color: #FFFFFF;
+}
+
+.button h4 {
+    margin:0 !important;
+    padding:0 !important;
+}
+
+/* Contato */
+#contato {
+    padding: 5rem;
+    text-align: center;
+}
+
+#contato h1 {
+    font-family: 'Open Sans Bold', sans-serif;
+    color: #DE513C;
+    padding:3rem;
+    font-size: 3rem;
+}
+
+#contato h4 {
+    padding:3rem;
+}
+
+#contato input, textarea {
+    text-align: center;
+    margin: auto;
+}
+
+/* Rodapé */
+#rodape {
+    background-color: #03424F;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+.copyright {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.copyright:hover {
+    text-decoration: none;
+    color: #DE513C;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+
+    .nav-link {
+        text-align:center!important;
+        margin-top:1rem;
+    }
+
+    /* Quem Somos */
+    #quem-somos {
+        padding: 1rem;
+        text-align: center;
+        background-image: url("../img/sobre-nos.jpg");
+        height: auto;
+    }
+
+    #quem-somos h1 {
+        font-family: 'Open Sans Bold', sans-serif;
+        color: #DE513C;
+        padding:1rem;
+        font-size: 3rem;
+    }
+
+    #quem-somos h4 {
+        padding:1rem;
+    }
+
+    #quem-somos a {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    /* Nossos Produtos */
+    #nossos-produtos {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    #nossos-produtos h1 {
+        font-family: 'Open Sans Bold', sans-serif;
+        color: #DE513C;
+        padding:1rem;
+        font-size: 3rem;
+    }
+
+    #nossos-produtos h4 {
+        padding:1rem;
+    }
+
+    .spaceBox {
+        margin-bottom: 3rem;
+    }
+
+    /* Blog */
+    #blog {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    #blog h1 {
+        font-family: 'Open Sans Bold', sans-serif;
+        color: #DE513C;
+        padding:1rem;
+        font-size: 3rem;
+    }
+
+    #blog h4 {
+        padding:1rem;
+    }
+
+    /* Contato */
+    #contato {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    #contato h1 {
+        font-family: 'Open Sans Bold', sans-serif;
+        color: #DE513C;
+        padding:1rem;
+        font-size: 3rem;
+    }
+
+    #contato h4 {
+        padding:1rem;
+    }
+
+    #contato input, textarea {
+        text-align: center;
+        margin: auto;
+    }
+
+    .bigger {
+       display:none !important;
+    }
+
+    .smaller {
+        display:block !important;
+    }
+
+    #big {
+        display:none;
+    }
+    
+    #small {
+        display:block;
+    }
+}
